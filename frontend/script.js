@@ -1,4 +1,8 @@
 console.log("Hello PlacementWatch");
+const API_BASE =
+window.location.hostname === "localhost"
+    ? "http://localhost:3000"
+    : "https://placementwatch-production.up.railway.app";
 function searchCompany()
 {
     let searchText =document.getElementById("searchInput").value.toLowerCase();
@@ -125,7 +129,7 @@ async function addPlacement()
     };
     const response =
         await fetch(
-        "http://localhost:3000/placements",
+        API_BASE +"/placements",
         {
             method: "POST",
             headers:
@@ -149,7 +153,7 @@ async function loadPlacements()
 {
     const response =
         await fetch(
-            "http://localhost:3000/placements"
+            API_BASE +"/placements"
         );
 
     placements =
@@ -171,7 +175,7 @@ async function loadStats()
 {
     const response =
         await fetch(
-            "http://localhost:3000/stats"
+            API_BASE +"/stats"
         );
 
     const stats =
@@ -205,7 +209,7 @@ async function loadChart()
 {
     const response =
         await fetch(
-            "http://localhost:3000/company-stats"
+            API_BASE +"/company-stats"
         );
 
     const data =
@@ -268,7 +272,7 @@ async function loginUser()
 
     const response =
     await fetch(
-        "http://localhost:3000/login",
+        API_BASE +"/login",
         {
             method:"POST",
 
@@ -400,7 +404,7 @@ async function loadMyPlacements()
 
     const response =
     await fetch(
-    "http://localhost:3000/my-placements",
+    API_BASE +"/my-placements",
     {
         headers:
         {
@@ -501,7 +505,7 @@ async function loadCompanyPage()
 
     const response =
         await fetch(
-        "http://localhost:3000/company/" +
+        API_BASE +"/company/" +
         company
         );
 
@@ -651,7 +655,7 @@ async function loadPlacementPage()
 
     const response =
     await fetch(
-        "http://localhost:3000/placement/" +
+        API_BASE +"/placement/" +
         id
     );
 
@@ -745,7 +749,7 @@ async function deletePlacement(id)
 
     const response =
     await fetch(
-        "http://localhost:3000/placement/" + id,
+        API_BASE +"/placement/" + id,
         {
             method: "DELETE",
 
@@ -785,7 +789,7 @@ async function loadEditPage()
 
     const response =
     await fetch(
-        "http://localhost:3000/placement/" +
+        API_BASE +"/placement/" +
         id
     );
 
@@ -895,7 +899,7 @@ async function updatePlacement()
 
     const response =
     await fetch(
-        "http://localhost:3000/placement/" +
+        API_BASE +"/placement/" +
         id,
         {
             method: "PUT",
@@ -951,7 +955,7 @@ async function registerUser()
 
     const response =
     await fetch(
-        "http://localhost:3000/register",
+        API_BASE +"/register",
         {
             method: "POST",
 
@@ -1006,7 +1010,7 @@ async function deleteAccount()
 
     const response =
     await fetch(
-        "http://localhost:3000/user",
+        API_BASE +"/user",
         {
             method: "DELETE",
 
@@ -1036,7 +1040,7 @@ async function loadHomeStats()
 {
     const response =
     await fetch(
-        "http://localhost:3000/stats"
+        API_BASE +"/stats"
     );
 
     const stats =
@@ -1069,7 +1073,7 @@ async function loadCompanySuggestions()
 {
     const response =
     await fetch(
-        "http://localhost:3000/placements"
+        API_BASE +"/placements"
     );
 
     const placements =
@@ -1128,7 +1132,7 @@ async function sendOTP()
 
     const response =
     await fetch(
-    "http://localhost:3000/send-otp",
+    API_BASE +"/send-otp",
     {
         method:"POST",
 
@@ -1182,7 +1186,7 @@ async function verifyAndRegister()
 
     const response =
     await fetch(
-    "http://localhost:3000/verify-register",
+    API_BASE +"/verify-register",
     {
         method:"POST",
 
@@ -1230,7 +1234,7 @@ async function sendResetOTP()
 
     const response =
     await fetch(
-    "http://localhost:3000/forgot-password",
+    API_BASE +"/forgot-password",
     {
         method:"POST",
 
@@ -1274,7 +1278,7 @@ async function resetPassword()
 
     const response =
     await fetch(
-    "http://localhost:3000/reset-password",
+    API_BASE +"/reset-password",
     {
         method:"POST",
 
@@ -1342,7 +1346,7 @@ async function predictCTC()
 
     const response =
     await fetch(
-    "http://localhost:3000/predict-ctc",
+    API_BASE +"/predict-ctc",
     {
         method:"POST",
 
@@ -1389,7 +1393,7 @@ async function predictCompanies()
 
     const response =
     await fetch(
-    "http://localhost:3000/predict-company",
+    API_BASE +"/predict-company",
     {
         method:"POST",
 
@@ -1482,7 +1486,7 @@ async function retrainModels()
 
     const response =
     await fetch(
-    "http://localhost:3000/retrain-models",
+    API_BASE +"/retrain-models",
     {
         method:"POST",
 
