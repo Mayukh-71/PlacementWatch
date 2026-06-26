@@ -1,0 +1,21 @@
+# Node
+node_modules/
+backend/node_modules/
+
+# Environment variables
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Generated files (optional)
+*.log

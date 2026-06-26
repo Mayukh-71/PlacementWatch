@@ -1,0 +1,106 @@
+company,role,ctc,cgpa,department,year,difficulty,submittedBy
+Amazon,SWE,20.12,8.67,Aerospace Engineering,2026,8,Mayukh_27
+Amazon,SDE,21.5,8.97,Aerospace Engineering,2028,7,Mayukh_27
+Amazon,SDE,22.6,8.88,Chemical Engineering,2028,9,Mayukh_27
+Amazon,SDE,24.5,8.34,Electrical Engineering,2028,8,Mayukh_27
+Amazon,SDE,25.0,9.03,Chemical Engineering,2028,9,Mayukh_27
+Amazon,SDE,24.67,9.09,Civil Engineering,2028,9,Mayukh_27
+Amazon,Data,18.0,8.88,Civil Engineering,2028,9,Mayukh_27
+Amazon,Data,19.0,8.16,Chemical Engineering,2028,9,Mayukh_27
+Amazon,Data,20.0,8.08,Mechanical Engineering,2028,7,Mayukh_27
+Amazon,Data,20.0,8.22,Electrical Engineering,2028,7,Mayukh_27
+Google,SDE,35.0,9.21,Chemical Engineering,2028,9,Mayukh_27
+Google,SDE,32.0,9.5,Mining Engineering,2028,8,Mayukh_27
+Google,SDE,36.0,9.7,Electrical Engineering,2028,10,Mayukh_27
+Google,SDE,25.0,8.97,Aerospace Engineering,2028,8,Mayukh_27
+Google,SDE,25.0,8.6,Chemical Engineering,2028,9,Mayukh_27
+Google,SDE,56.0,9.8,Computer Science and Engineering,2028,9,Mayukh_27
+Google,SDE,56.0,9.85,Computer Science and Engineering,2028,10,Mayukh_27
+Google,SDE,50.0,9.45,Computer Science and Engineering,2028,9,Mayukh_27
+Google,SDE,50.0,9.7,Electronics and Communication Engineering,2028,9,Mayukh_27
+Google,SDE,28.0,8.95,Mechanical Engineering,2028,9,Mayukh_27
+Microsoft,SDE,25.0,8.95,Chemical Engineering,2028,10,Mayukh_27
+Microsoft,SDE,22.0,8.45,Civil Engineering,2028,10,Mayukh_27
+Microsoft,SDE,22.0,8.56,Chemical Engineering,2028,9,Mayukh_27
+Microsoft,SDE,25.0,8.78,Mechanical Engineering,2028,9,Mayukh_27
+Microsoft,SDE,25.0,9.45,Mechanical Engineering,2028,10,Mayukh_27
+Microsoft,SDE,30.0,9.25,Electrical Engineering,2028,8,Mayukh_27
+Microsoft,SDE,45.0,9.72,Electronics and Communication Engineering,2028,10,Mayukh_27
+Microsoft,SDE,58.56,9.84,Computer Science and Engineering,2028,10,Mayukh_27
+Microsoft,SDE,52.55,9.68,Computer Science and Engineering,2028,10,Mayukh_27
+Microsoft,SDE,53.56,9.58,Computer Science and Engineering,2028,10,Mayukh_27
+Microsoft,SDE,54.22,9.6,Computer Science and Engineering,2028,10,Mayukh_27
+Microsoft,SDE,25.0,9.35,Civil Engineering,2028,7,Mayukh_27
+Microsoft,SDE,26.0,9.71,Mining Engineering,2028,9,Mayukh_27
+Microsoft,SDE,40.0,9.89,Manufacturing Engineering,2028,0,Mayukh_27
+Microsoft,SDE,40.0,8.45,Mathematics and Computing,2028,8,Mayukh_27
+Flipkart,SDE,18.0,8.78,Chemical Engineering,2028,9,Mayukh_27
+Flipkart,SDE,24.0,9.67,Chemical Engineering,2028,9,Mayukh_27
+Flipkart,SDE,24.0,9.45,Instrumentation Engineering,2028,9,Mayukh_27
+Flipkart,SDE,22.0,8.85,Instrumentation Engineering,2028,9,Mayukh_27
+Flipkart,SDE,25.0,8.95,Electrical Engineering,2028,10,Mayukh_27
+Flipkart,SDE,26.0,9.37,Electrical Engineering,2028,7,Mayukh_27
+Flipkart,SDE,30.0,9.56,Electrical Engineering,2028,10,Mayukh_27
+Flipkart,SDE,26.0,8.56,Computer Science and Engineering,2028,10,Mayukh_27
+Flipkart,SDE,40.0,9.23,Computer Science and Engineering,2028,10,Mayukh_27
+Flipkart,SDE,40.0,9.45,Computer Science and Engineering,2028,10,Mayukh_27
+Flipkart,SDE,25.0,9.23,Mechanical Engineering,2028,7,Mayukh_27
+Flipkart,SDE,22.0,8.45,Mechanical Engineering,2028,9,Mayukh_27
+Flipkart,SDE,18.0,7.95,Mechanical Engineering,2028,9,Mayukh_27
+Flipkart,Data,15.0,7.85,Chemical Engineering,2028,9,Mayukh_27
+Flipkart,Data,20.0,8.88,Chemical Engineering,2028,10,Mayukh_27
+Flipkart,Data,15.0,9.23,Metallurgical Engineering,2028,9,Mayukh_27
+Flipkart,Data,18.0,9.45,Geophysics and Geoscience,2028,10,Mayukh_27
+Optiver,Quant,80.0,9.78,Computer Science and Engineering,2028,10,Mayukh_27
+Optiver,Quant,85.0,9.91,Computer Science and Engineering,2028,10,Mayukh_27
+Optiver,Quant,85.0,9.86,Computer Science and Engineering,2028,10,Mayukh_27
+Optiver,Quant,85.0,9.65,Computer Science and Engineering,2028,10,Mayukh_27
+Optiver,Quant,80.0,9.85,Electronics and Communication Engineering,2028,10,Mayukh_27
+Jane Street,Quant,120.0,9.75,Mathematics and Computing,2028,10,Mayukh_27
+Graviton,Quant,75.0,9.68,Mathematics and Computing,2028,10,Mayukh_27
+Graviton,Quant,70.0,9.48,Mathematics and Computing,2028,10,Mayukh_27
+Graviton,Quant,70.0,8.95,Mathematics and Computing,2028,10,Mayukh_27
+Graviton,Quant,70.0,9.56,Computer Science and Engineering,2028,10,Mayukh_27
+Graviton,Quant,75.0,9.65,Electronics and Communication Engineering,2028,10,Mayukh_27
+Tower Research Capital,Quant,80.0,9.85,Computer Science and Engineering,2028,10,Mayukh_27
+Tower Research Capital,Quant,80.0,9.78,Computer Science and Engineering,2028,10,Mayukh_27
+Tower Research Capital,Quant,75.0,9.56,Computer Science and Engineering,2028,10,Mayukh_27
+Adobe,SDE,20.0,9.05,Chemical Engineering,2028,8,Mayukh_27
+Adobe,SDE,22.0,9.45,Chemical Engineering,2028,9,Mayukh_27
+Adobe,SDE,25.0,9.23,Computer Science and Engineering,2028,9,Mayukh_27
+Adobe,SDE,25.0,8.95,Electronics and Communication Engineering,2028,9,Mayukh_27
+Adobe,SDE,25.0,8.6,Electronics and Communication Engineering,2028,9,Mayukh_27
+Adobe,SDE,20.0,8.15,Electronics and Communication Engineering,2028,10,Mayukh_27
+Adobe,SDE,25.0,9.56,Industrial Engineering,2028,9,Mayukh_27
+Adobe,SDE,30.0,9.78,Industrial Engineering,2028,9,Mayukh_27
+Adobe,SDE,30.0,9.68,Mechanical Engineering,2028,10,Mayukh_27
+Adobe,SDE,25.0,9.23,Mechanical Engineering,2028,8,Mayukh_27
+Adobe,Data,25.0,9.23,Chemical Engineering,2028,10,Mayukh_27
+Adobe,Data,20.0,9.45,Manufacturing Engineering,2028,9,Mayukh_27
+Adobe,Data,18.0,9.1,Industrial Engineering,2028,9,Mayukh_27
+Adobe,Data,18.0,8.86,Industrial Engineering,2028,9,Mayukh_27
+Goldman Sachs,Quant,56.0,9.45,Computer Science and Engineering,2028,8,Mayukh_27
+Goldman Sachs,Quant,50.0,9.34,Computer Science and Engineering,2028,9,Mayukh_27
+Goldman Sachs,Quant,54.0,9.56,Electronics and Communication Engineering,2028,9,Mayukh_27
+Goldman Sachs,SDE,30.0,9.45,Mining Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,28.0,8.75,Metallurgical Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,30.0,8.85,Chemical Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,35.0,9.56,Chemical Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,35.0,9.45,Mechanical Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,30.0,9.25,Mechanical Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,30.0,9.19,Mechanical Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,30.0,8.56,Mechanical Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,30.0,7.98,Electrical Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,35.0,8.78,Electrical Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,35.0,8.95,Electrical Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,40.0,9.56,Electrical Engineering,2028,10,Mayukh_27
+Goldman Sachs,SDE,40.0,9.78,Electrical Engineering,2028,10,Mayukh_27
+Honeywell,SDE,25.0,7.89,Chemical Engineering,2028,8,Mayukh_27
+Honeywell,SDE,28.0,8.34,Chemical Engineering,2028,9,Mayukh_27
+Honeywell,SDE,30.0,9.12,Industrial Engineering,2028,9,Mayukh_27
+Honeywell,SDE,30.0,9.32,Industrial Engineering,2028,9,Mayukh_27
+Honeywell,SDE,30.0,8.45,Electrical Engineering,2028,9,Mayukh_27
+Honeywell,SDE,40.0,8.95,Mathematics and Computing,2028,9,Mayukh_27
+Honeywell,SDE,40.0,8.84,Mathematics and Computing,2028,8,Mayukh_27
+Honeywell,SDE,45.0,9.23,Mathematics and Computing,2028,8,Mayukh_27
+Honeywell,SDE,45.0,9.23,Computer Science and Engineering,2028,8,Mayukh_27

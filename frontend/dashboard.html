@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PlacementWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+<button
+id="retrainButton"
+onclick="retrainModels()"
+style="display:none;">
+🔄 Retrain AI Models
+</button>
+    <div class="nav-left">
+        <a href="index.html">Home</a>
+        <a href="submit.html">Submit</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="predict.html">AI Predictor</a>
+    </div>
+    <div id="authSection">
+    </div>
+</div>
+<h1>Placement Dashboard</h1>
+<div class="stats">
+    <div class="card">
+        <h3>Total Placements</h3>
+        <p id="totalPlacements">0</p>
+    </div>
+    <div class="card">
+        <h3>Average CTC</h3>
+        <p id="averageCTC">0</p>
+    </div>
+    <div class="card">
+        <h3>Highest CTC</h3>
+        <p id="highestCTC">0</p>
+    </div>
+    <div class="card">
+        <h3>Companies</h3>
+        <p id="totalCompanies">0</p>
+    </div>
+</div>
+<h2>Company Packages</h2>
+<canvas id="ctcChart"></canvas>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

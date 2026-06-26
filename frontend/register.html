@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+</div>
+
+<h1>Register</h1>
+
+<input
+type="email"
+id="emailInput"
+placeholder="Email">
+
+<br><br>
+<input
+
+type="text"
+id="usernameInput"
+placeholder="Username">
+
+<br><br>
+
+<input
+type="password"
+id="passwordInput"
+placeholder="Password">
+
+<br><br>
+
+<button
+type="button"
+onclick="sendOTP()">
+Send OTP
+</button>
+<br><br>
+
+<input
+type="text"
+id="otpInput"
+placeholder="Enter OTP">
+<br><br>
+
+<button
+type="button"
+onclick="verifyAndRegister()">
+Verify & Register
+</button>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

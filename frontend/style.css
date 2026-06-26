@@ -1,0 +1,146 @@
+/*selector
+{
+    property: value;
+}*/
+body
+{
+    background-color: lightblue;
+    width: 80%;
+    margin: auto;
+}
+h1
+{
+    color: darkblue;
+    font-size: 40px;
+    text-align: center;
+}
+#Heading
+{
+    text-align: center;
+}
+p
+{
+    font-size: 18px;
+}
+button
+{
+    background-color:blue;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+}
+button:hover
+{
+    background-color: darkblue;
+}
+input
+{
+    padding: 8px;
+}
+textarea
+{
+    padding: 8px;
+}
+.hero
+{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.stats
+{
+    display: flex;
+}
+.card
+{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1;
+}
+.offers
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+button
+{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover
+{
+    opacity: 0.85;
+}
+.navbar
+{
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#authSection
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#placementsContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+.placement-card
+{
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.predict-box
+{
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow:
+    0px 2px 10px
+    rgba(0,0,0,0.2);
+    background: white;
+}
+.predict-box input
+{
+    width: 376px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.predict-box button
+{
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}

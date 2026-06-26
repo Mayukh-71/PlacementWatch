@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>PlacementWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="navbar">
+
+    <div class="nav-left">
+        <a href="index.html">Home</a>
+        <a href="submit.html">Submit</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="predict.html">AI Predictor</a>
+    </div>
+
+    <div id="authSection">
+    </div>
+
+</div>
+
+<div class="hero">
+    <h1>PlacementWatch</h1>
+    <h2 id="Heading">Discover Internship and Placement Insights </h2>
+</div>
+
+<div class="stats">
+
+    <div class="card">
+        <h3>Average CTC</h3>
+        <p id="homeAverageCTC">0</p>
+    </div>
+
+    <div class="card">
+        <h3>Companies</h3>
+        <p id="homeCompanies">0</p>
+    </div>
+
+    <div class="card">
+        <h3>Submissions</h3>
+        <p id="homeSubmissions">0</p>
+    </div>
+
+</div>
+
+<hr>
+
+<h2>Search Placements</h2>
+<div class="controls">
+
+    <input
+    type="text"
+    id="searchInput"
+    placeholder="Search Company"
+    list="companyList">
+    <datalist id="companyList">
+    </datalist>
+
+    <button onclick="searchPlacements()">
+    Search
+    </button>
+
+    <select id="sortSelect">
+        <option value="">
+        Sort By
+        </option>
+
+        <option value="ctcHigh">
+        CTC High-Low
+        </option>
+
+        <option value="ctcLow">
+        CTC Low-High
+        </option>
+    </select>
+
+    <button onclick="sortPlacements()">
+    Sort
+    </button>
+
+    <select id="departmentFilter">
+
+        <option value="">All Departments</option>
+        <option>Chemical Engineering</option>
+        <option>Computer Science and Engineering</option>
+        <option>Electrical Engineering</option>
+        <option>Mathematics and Computing</option>
+        <option>Electronics and Communication Engineering</option>
+        <option>Civil Engineering</option>
+        <option>Mechanical Engineering</option>
+        <option>Manufacturing Engineering</option>
+        <option>Industrial Engineering</option>
+        <option>Instrumentation Engineering</option>
+        <option>Aerospace Engineering</option>
+        <option>Artificial Intelligence</option>
+        <option>Metallurgical Engineering</option>
+        <option>Mining Engineering</option>
+        <option>Biotechnology and Bioscience</option>
+        <option>Geophysics and Geoscience</option>
+        <option>Ocean and Naval Architecture</option>
+    </select>
+
+    <button onclick="filterDepartment()">
+    Filter
+    </button>
+
+    <button onclick="loadPlacements()">
+    Reset
+    </button>
+
+</div>
+
+<hr>
+
+<h2>Placement Records</h2>
+
+<div id="placementsContainer">
+
+</div>
+
+<hr>
+
+<div class="offers">
+
+    <h2>Recent Offers</h2>
+
+    <ul>
+        <li>Amazon - SDE Intern</li>
+        <li>Google - SWE Intern</li>
+        <li>Microsoft - Software Engineer</li>
+    </ul>
+
+</div>
+
+<hr>
+
+<h2>Top Companies</h2>
+
+<ol>
+    <li>Amazon</li>
+    <li>Google</li>
+    <li>Microsoft</li>
+    <li>Atlassian</li>
+    <li>Goldman Sachs</li>
+</ol>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

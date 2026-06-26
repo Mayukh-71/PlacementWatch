@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>PlacementWatch</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<div class="navbar">
+
+    <div class="nav-left">
+        <a href="index.html">Home</a>
+        <a href="submit.html">Submit</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="predict.html">AI Predictor</a>
+    </div>
+
+    <div id="authSection">
+    </div>
+
+</div>
+<form>
+       
+        <br>
+        <input type="text" id="companyInput" placeholder="Enter Company">
+        <br><br>
+        <br>
+        <input type="text" id="roleInput" placeholder="Enter role">
+        <br><br>
+        <br>
+        <input type="number" id="ctcInput" placeholder="Enter CTC">
+        <br><br>
+        <br>
+        <input type="number" id="cgpaInput" placeholder="CGPA">
+        <br><br>
+        <br>
+        <input type="text" id="departmentInput" placeholder="Department">
+        <br><br>
+        <br>
+        <input type="number" id="yearInput" placeholder="Year">
+        <br><br>
+        <br>
+        <input type="number" id="difficultyInput" placeholder="Difficulty (1-10)">
+        <br><br>
+        <br>
+        <textarea id="oaInput" rows="4" cols="40" placeholder="OA Experience"></textarea>
+        <br><br>
+        <br>
+        <textarea id="interviewInput" rows="4" cols="40" placeholder="Interview Experience"></textarea>
+        <button type="button" onclick="addPlacement()">Submit</button>
+    </form>
+    <h2>Submitted Placements</h2>
+    <div id="placementsContainer"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

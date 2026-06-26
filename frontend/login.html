@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PlacementWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="submit.html">Submit</a>
+    <a href="dashboard.html">Dashboard</a>
+    
+</div>
+<h1>Login</h1>
+<form>
+    <br>
+    <input
+        type="text"
+        id="usernameInput"
+        placeholder="Username">
+        <br><br>
+    <br>
+    <input
+        type="password"
+        id="passwordInput"
+        placeholder="Password">
+        <br><br>
+    <button type="button" onclick="loginUser()">
+        Login
+    </button>
+    <br><br>
+
+    <a href="forgot_password.html">
+    Forgot Password?
+    </a>
+    <p>
+    Don't have an account?
+    
+    <button type="button" onclick="window.location.href='register.html'">
+    Register
+    </button>
+    </p>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
