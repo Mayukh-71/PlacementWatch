@@ -17,7 +17,8 @@ RUN npm install
 COPY . .
 
 # Install Python dependencies
-RUN pip3 install --break-system-packages -r AI/requirements.txt
+RUN pip3 install --upgrade pip && \
+    pip3 install -r AI/requirements.txt
 
 EXPOSE 3000
 
