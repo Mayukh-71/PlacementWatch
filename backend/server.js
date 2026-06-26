@@ -602,7 +602,7 @@ nodemailer.createTransport(
     }
 });
 const OTP =
-require("./models/OTP");
+require("./models/otp");
 app.post(
 "/send-otp",
 async (req,res)=>
