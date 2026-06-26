@@ -2,6 +2,7 @@ const User =require("./models/User");
 const bcrypt =require("bcryptjs");
 const jwt =require("jsonwebtoken");
 const JWT_SECRET =process.env.JWT_SECRET;
+const PYTHON =process.env.PYTHON_COMMAND || "python";
 const auth = require("./middleware/auth");
 const dns = require("dns");
 const { exec } = require("child_process");
@@ -965,9 +966,10 @@ app.post(
 "/predict-ctc",
 (req,res)=>
 {
+
     const py =
     spawn(
-        "python",
+        PYTHON,
         ["AI/predict_ctc.py"]
     );
 
@@ -1024,7 +1026,7 @@ app.post(
 {
     const py =
     spawn(
-        "python",
+        PYTHON,
         [
             "AI/predict_company.py"
         ]
