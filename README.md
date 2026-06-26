@@ -10,9 +10,9 @@ The application integrates a modern web stack with Machine Learning, providing r
 
 ## 🌐 Live Demo
 
-**Frontend:** `https://your-vercel-url.vercel.app`
+**Frontend:** `https://placement-watch.vercel.app/`
 
-**Backend API:** `https://your-railway-url.up.railway.app`
+**Backend API:** `https://placementwatch-production.up.railway.app/`
 
 ---
 
