@@ -18,7 +18,7 @@ COPY . .
 
 # Install Python dependencies
 RUN pip3 install --upgrade pip && \
-    pip3 install -r AI/requirements.txt
+    pip3 install -r AI/requirement.txt
 
 EXPOSE 3000
 
