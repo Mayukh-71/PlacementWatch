@@ -2,7 +2,7 @@ console.log("Hello PlacementWatch");
 const API_BASE =
 window.location.hostname === "localhost"
     ? "http://localhost:3000"
-    : "https://placementwatch-production.up.railway.app";
+    : "https://p01--placementwatch--fz964kszvxg9.code.run/";
 function searchCompany()
 {
     let searchText =document.getElementById("searchInput").value.toLowerCase();
