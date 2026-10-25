@@ -261,7 +261,4 @@ Open the `frontend` folder using **Live Server** or any static web server.
 
 **Mayukh Paul**
 
-B.Tech, Chemical Engineering
-Indian Institute of Technology Kharagpur
-
-GitHub: https://github.com/Mayukh-71
+Indian Institute of Technology, Kharagpur
