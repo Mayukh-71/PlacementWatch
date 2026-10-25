@@ -257,32 +257,6 @@ Open the `frontend` folder using **Live Server** or any static web server.
 
 ---
 
-# 📸 Screenshots
-
-Add screenshots here after deployment.
-
-Example:
-
-```
-Home Page
-
-Dashboard
-
-AI Predictor
-
-Placement Submission
-
-Company Statistics
-```
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
-
----
-
 # 👨‍💻 Author
 
 **Mayukh Paul**
